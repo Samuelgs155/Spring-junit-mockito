@@ -1,0 +1,12 @@
+package com.spring.unitarias.services;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class GreetingService {
+	
+	public String firstUnitTest() {
+        return"Unit test 1";
+    }
+
+}

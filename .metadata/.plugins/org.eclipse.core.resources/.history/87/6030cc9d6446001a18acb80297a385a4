@@ -1,0 +1,26 @@
+package com.spring.unitarias;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.InjectMocks;
+import org.mockito.MockitoAnnotations;
+
+import com.spring.unitarias.services.GreetingService;
+
+class GreetingServiceUnitTest {
+
+	@InjectMocks
+	private GreetingService greetingService;
+
+	@Before
+	public void init() {
+		MockitoAnnotations.initMocks(this);
+	}
+
+	@Test
+	public void itShouldSayHolaMundo() {
+		Assert.assertEquals("Unit test 1", greetingService.firstUnitTest());
+	}
+
+}

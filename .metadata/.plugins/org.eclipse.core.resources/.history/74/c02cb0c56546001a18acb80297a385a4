@@ -1,0 +1,5 @@
+package com.spring.unitarias.dao;
+
+public interface HelloRepository {
+
+}

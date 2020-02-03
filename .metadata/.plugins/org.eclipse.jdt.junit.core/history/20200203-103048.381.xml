@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestingWebApplicationTest" project="spring-boot-unitarias-1" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.spring.unitarias.TestingWebApplicationTest" time="0.281" displayname="TestingWebApplicationTest" uniqueid="[engine:junit-jupiter]/[class:com.spring.unitarias.TestingWebApplicationTest]">
+    <testcase name="shouldReturnDefaultMessage" classname="com.spring.unitarias.TestingWebApplicationTest" time="0.281" displayname="shouldReturnDefaultMessage()" uniqueid="[engine:junit-jupiter]/[class:com.spring.unitarias.TestingWebApplicationTest]/[method:shouldReturnDefaultMessage()]"/>
+  </testsuite>
+</testrun>

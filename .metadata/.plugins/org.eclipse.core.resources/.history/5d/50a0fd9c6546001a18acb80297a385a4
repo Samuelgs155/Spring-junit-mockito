@@ -1,0 +1,19 @@
+package com.spring.unitarias.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.spring.unitarias.services.GreetingService;
+
+@Controller
+public class MainController {
+
+	@ResponseBody
+    @GetMapping("/unitTest1")
+    public String hello() {
+        return "Unit Test 1";
+    }
+}

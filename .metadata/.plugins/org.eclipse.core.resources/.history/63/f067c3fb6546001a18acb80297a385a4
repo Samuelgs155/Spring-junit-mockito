@@ -1,0 +1,12 @@
+package com.spring.unitarias.services;
+
+public class HelloServiceImpl implements HelloService {
+
+	@Autowired
+    HelloRepository helloRepository;
+
+    @Override
+    public String get() {
+        return helloRepository.get();
+    }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="WebLayerTest" project="spring-boot-unitarias-1" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.spring.unitarias.WebLayerTest" time="0.218" displayname="WebLayerTest" uniqueid="[engine:junit-jupiter]/[class:com.spring.unitarias.WebLayerTest]">
+    <testcase name="shouldReturnDefaultMessage" classname="com.spring.unitarias.WebLayerTest" time="0.218" displayname="shouldReturnDefaultMessage()" uniqueid="[engine:junit-jupiter]/[class:com.spring.unitarias.WebLayerTest]/[method:shouldReturnDefaultMessage()]"/>
+  </testsuite>
+</testrun>

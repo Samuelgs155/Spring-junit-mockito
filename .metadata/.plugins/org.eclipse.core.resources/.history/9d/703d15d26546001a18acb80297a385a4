@@ -1,0 +1,8 @@
+package com.spring.unitarias.dao;
+
+public class HelloRepositoryImpl implements HelloRepository {
+
+	public String get() {
+        return "Hello JUnit 5";
+    }
+}

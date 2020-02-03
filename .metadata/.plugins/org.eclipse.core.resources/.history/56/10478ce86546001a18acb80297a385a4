@@ -1,0 +1,5 @@
+package com.spring.unitarias.services;
+
+public interface HelloService {
+
+}

@@ -1,0 +1,17 @@
+package com.spring.unitarias;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+import com.spring.unitarias.services.GreetingService;
+
+class GreetingServiceUnitTest {
+
+	private GreetingService greetingService = new GreetingService();
+
+	@Test
+	public void itShouldSayHolaMundo() {
+		Assert.assertEquals("Unit test 1", greetingService.firstUnitTest());
+	}
+
+}
